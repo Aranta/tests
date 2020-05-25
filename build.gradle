@@ -62,6 +62,12 @@ task YandexMarket_tests(type: Test) {
         includeTags 'yandex_market'
     }
 }
+
+task FbEdit_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags 'fb-test'
+    }
+}
 help {
     doFirst {
         println ""
